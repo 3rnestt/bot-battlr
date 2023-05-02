@@ -30,7 +30,7 @@ export default function YourBotArmy({ botArmy, onRemoveBot }) {
         {
             botArmy.length ? null :
                 <h3 className={styles.placeholder}
-                >{`<create your badass bot army/>`}</h3>
+                >{`<create your bot army/>`}</h3>
         }
     </div>
 }
